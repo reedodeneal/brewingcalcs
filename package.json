@@ -2,10 +2,26 @@
   "name": "brewingcalcs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "beer",
+    "brewing",
+    "recipe",
+    "bitterness",
+    "original",
+    "gravity",
+    "final",
+    "gravity",
+    "sparge",
+    "mash",
+    "brew",
+    "strike",
+    "infusion",
+    "decoction"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/reedodeneal/brewingcalcs.git"

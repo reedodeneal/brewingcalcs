@@ -21,8 +21,7 @@ exports.pointsFromOG = function(originalGravity, targetVolume) {
   return (originalGravity - 1) * 1000 * targetVolume
 }
 
-// quantity (float): expressed in ounces
-// targetVolume (float): expressed in gallons
-exports.pointsFromFermentable = function(ppg, quantity, targetVolume) {
-  return ppg * (quantity / 16) / targetVolume;
+// quantity (float): expressed in pounds
+exports.pointsFromPPG = function(ppg, quantity) {
+  return ppg * quantity;
 }

@@ -2,7 +2,7 @@ import {
   originalGravity,
   finalGravity,
   pointsFromOG,
-  pointsFromFermentable,
+  pointsFromPPG,
 } from './calcs/gravity'
 
 import {
@@ -26,7 +26,7 @@ export {
   originalGravity,
   finalGravity,
   pointsFromOG,
-  pointsFromFermentable,
+  pointsFromPPG,
   bigness,
   boilTimeFactor,
   utilization,

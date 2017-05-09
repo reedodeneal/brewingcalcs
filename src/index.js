@@ -1,6 +1,6 @@
-import finalGravity from './calcs/finalGravity'
-import originalGravity from './calcs/originalGravity'
+import gravity from './calcs/gravity'
+import hop from './calcs/hop'
 import abv from './calcs/abv'
-import gravityPoints from './calcs/gravityPoints'
+import utils from './calcs/utils'
 
-export {finalGravity, originalGravity, abv, gravityPoints}
+export {gravity, hop, abv, utils}

@@ -1,7 +1,7 @@
 Brewing Calcs
 =============
 
-Javascript library to aid in calculating various metrics when brewing or recipe planning.
+Javascript library to help calculate various metrics when brewing or recipe planning.
 
 ## Developing
 

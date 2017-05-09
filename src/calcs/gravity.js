@@ -17,6 +17,12 @@ exports.finalGravity = function(originalGravity, attenuation) {
 
 // points describes the actual amount of sugar in your beer in gravity points
 // targetVolume is in liters
-exports.points = function(originalGravity, targetVolume) {
+exports.pointsFromOG = function(originalGravity, targetVolume) {
   return (originalGravity - 1) * 1000 * targetVolume
+}
+
+// quantity (float): expressed in ounces
+// targetVolume (float): expressed in gallons
+exports.pointsFromFermentable = function(ppg, quantity, targetVolume) {
+  return ppg * (quantity / 16) / targetVolume;
 }

@@ -35,7 +35,7 @@ exports.aau = function(hopWeight, hopAlphaAcid) {
 // recipeVolume (float): recipe volume in gallons
 // originalGravity(float): original gravity of the recipe
 // hopType (string): 'pellet', 'plug', or nothing at all
-exports.ibu = function(hopWeight, hopAlphaAcid, hopTime, recipeVolume, originalGravity, hopType) {
+exports.ibuTinseth = function(hopWeight, hopAlphaAcid, hopTime, recipeVolume, originalGravity, hopType) {
   var bigness = this.bigness(originalGravity)
   var boilTimeFactor = this.boilTimeFactor(hopTime)
   var utilization = this.utilization(originalGravity, hopTime, hopType)

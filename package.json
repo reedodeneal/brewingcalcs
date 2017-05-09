@@ -2,7 +2,7 @@
   "name": "brewingcalcs",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "npm run build && tap test/*.spec.js",
     "build": "rm -Rf dist/* && babel -d dist src",
